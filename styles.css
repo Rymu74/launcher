@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5b5b5b;
+    margin: 0; /* Remove the default margin */
+
+    background-image: url('ripple.JPG'); /* Set background image */
+    background-size: cover;
+}
+
+
+
+.app-container {
+    display: flex;
+    gap: 20px;
+}
+
+
+.test {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon {
+    width: 100px;   
+    height: 100px;
+    background-color: #ecf0f3;
+    border: 1px solid #c5d1db;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.icon-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    background-size: cover;
+    background-position: center;
+}
+
+.icon:hover {
+    transform: scale(1.05);
+}
+
+.iframe-container {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background-color: #187e8b;
+    border: 1px solid #187e8b;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #133d69, -10px -10px 20px #125767;
+}
+
+iframe {
+    width: 101%;
+    height: 101%;
+    border-radius: 14px;
+    border: none;
+}
