@@ -30,8 +30,8 @@ body {
 .icon {
     width: 100px;   
     height: 100px;
-    background-color: #ecf0f3;
-    border: 1px solid #c5d1db;
+    background-color: #187e8b;
+    border: 1px solid #187e8b;
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s;
